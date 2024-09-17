@@ -1,0 +1,15 @@
+.All_secttion{
+  position: relative;
+}
+
+.warning {
+  position: fixed; /* Make it fixed so it doesn't affect the layout */
+  right: 20px;
+  top: 10%;
+  background-color: rgb(250, 3, 3);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000; /* Make sure it appears above other elements */
+  font-family: 'Courier New', Courier, monospace;
+}
